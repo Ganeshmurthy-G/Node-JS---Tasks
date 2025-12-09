@@ -9,9 +9,7 @@ exports.getProfiles = (req, res, next) => {
 };
 
 exports.getUserById = (req, res, next) => {
-    const userId = req.params.id;
-    console.log('userId: ', userId);
-
+    const userId = req.params
     user.getUserById(userId, (err, profile) => {
         if (err) return next(err);
 
