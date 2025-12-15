@@ -1,0 +1,5 @@
+# Exclude the Node.js dependency directory
+node_modules/
+
+# Exclude the environment variables file (sensitive information)
+.env
