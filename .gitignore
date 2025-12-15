@@ -3,3 +3,6 @@ node_modules/
 
 # Exclude the environment variables file (sensitive information)
 .env
+
+.env
+.env.*
